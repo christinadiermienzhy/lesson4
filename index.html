@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		lesson4
+	</title>
+</head>
+<body>
+	<script type="text/javascript">
+		var height=+prompt ("Какой высоты должен быть треугольник?");
+		var triangle='';
+		var z='*';
+		 for (var i =1; i <= height; i++) {
+		 	triangle=triangle+z+'\n';
+		 	z=z+'*';
+		 }
+		(height<=1)? alert('Таких треугольников не бывает!'): height!=height ? alert('Вы ввели некорректные данные, попробуйте еще раз!'):alert(triangle);
+
+
+	</script>
+</body>
+</html>
