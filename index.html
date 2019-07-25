@@ -17,13 +17,11 @@
 		 }
 		(height<=1)? alert('Таких треугольников не бывает!'): height!=height ? alert('Вы ввели некорректные данные, попробуйте еще раз!'):alert(triangle);*/
 
-
-	function drawTriangle(){
 		var height=+prompt ("Какой высоты должен быть треугольник?");
 		var triangle='';
 		var z='*';
-
-		 for (var i =1; i <= height; i++) {
+		function drawTriangle(){
+		for (var i =1; i <= height; i++) {
 		 	triangle=triangle+z+'\n';
 		 	z=z+'*';
 		 }
